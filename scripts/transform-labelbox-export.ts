@@ -5,7 +5,7 @@ import { promisify } from 'util';
 import Bluebird from 'bluebird';
 import ora from 'ora';
 import R from 'ramda';
-import download from '../library/download';
+import download from '../src/library/download';
 
 async function main() {
   const spinner = ora().start();
