@@ -2,7 +2,7 @@
   "name": "idsens",
   "version": "0.0.0",
   "scripts": {
-    "normalize-labelbox-export": "ts-node scripts/normalize-labelbox-export.ts"
+    "transform-labelbox-export": "ts-node scripts/transform-labelbox-export.ts"
   },
   "author": "Roger Madjos",
   "license": "ISC",
